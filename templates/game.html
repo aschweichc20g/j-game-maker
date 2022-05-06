@@ -1,0 +1,20 @@
+
+<table>
+    <tr>
+    {% for i in range(0,6) %}
+        <th>{{categories[i]}} | </th>
+    {% endfor %}
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    
+</table>
+<br>
+<table>
+    <tr>
+        {% for i in range(6,12) %}
+            <th>{{categories[i]}} | </th>
+        {% endfor %}
+    </tr>
+</table>
